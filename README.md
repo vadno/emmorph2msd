@@ -19,7 +19,7 @@ The script converts the output tag of emMorph morphological analyzer to the corr
 
 ## MSD
 
-What we call here MSD is a modified version of the morphosyntactic tagset of [MULTEXT](http://nl.ijs.si/ME/Vault/V3/msd/msd.pdf). This modified tagset is the output of the second version of [magyarlanc](http://rgai.inf.u-szeged.hu/index.php?lang=en&page=magyarlanc), a toolkit for linguistic processing of Hungarian texts and it is also an annotation scheme for a version of the largest fully manually annotated corpus off Hungarian, [Szeged Treebank](http://rgai.inf.u-szeged.hu/index.php?lang=en&page=SzegedTreebank).
+What we call here MSD is a modified version of the morphosyntactic tagset of [MULTEXT](http://nl.ijs.si/ME/Vault/V3/msd/msd.pdf). This modified tagset is the output of the second version of [magyarlanc](http://rgai.inf.u-szeged.hu/index.php?lang=en&page=magyarlanc), a toolkit for linguistic processing of Hungarian texts and it is also an annotation scheme for a version of the largest fully manually annotated corpus of Hungarian, [Szeged Treebank](http://rgai.inf.u-szeged.hu/index.php?lang=en&page=SzegedTreebank).
 
 # How to use the converter?
 
