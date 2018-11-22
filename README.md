@@ -23,9 +23,8 @@ What we call here MSD is a modified version of the morphosyntactic tagset of [MU
 
 # How to use the converter?
 
-standard input: token, lemma, emmorph tag separated by tab
-
-standard output: msd tag
+* standard input: token, lemma, emmorph tag separated by tab
+* standard output: msd tag
 
 # Dependencies
 
@@ -35,7 +34,7 @@ standard output: msd tag
 
 GNU General Public License v3.0
 
-# Other converters
+# Our converters
 
 * [emmorph2ud](https://github.com/vadno/emmorph2ud)
 * [emmorph2conll](https://github.com/vadno/emmorph2conll)
