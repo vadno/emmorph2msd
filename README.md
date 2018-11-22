@@ -6,8 +6,8 @@ The script converts the output tag of emMorph morphological analyzer to the corr
 
 * the main script of the converter: `converter.py`
 * three auxiliary scripts in folder `converterdata`
-* full list of emMorph tags in folder `tagsets` [ ] TODO
-* a table of msd tags in folder `tagsets` [ ] TODO
+* full list of emMorph tags in folder `tagsets` TODO
+* a table of msd tags in folder `tagsets` TODO
 * license
 * this readme
 
@@ -24,6 +24,7 @@ What we call here MSD is a modified version of the morphosyntactic tagset of [MU
 # How to use the converter?
 
 standard input: token, lemma, emmorph tag separated by tab
+
 standard output: msd tag
 
 # Dependencies
