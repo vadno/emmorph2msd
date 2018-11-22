@@ -2,9 +2,9 @@
 # coding=utf-8
 
 import sys
-import mappings as cd
-import lex_lists as ls
-import defaults as df
+import converterdata.mappings as cd
+import converterdata.lex_lists as ls
+import converterdata.defaults as df
 
 
 default_features = {'df.A_DEFAULT': df.A_DEFAULT,
