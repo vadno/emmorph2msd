@@ -2,9 +2,10 @@
 # coding=utf-8
 
 import sys
-import converterdata.mappings as cd
-import converterdata.lex_lists as ls
-import converterdata.defaults as df
+import codecs
+from converterdata import mappings as cd
+from converterdata import lex_lists as ls
+from converterdata import defaults as df
 
 
 default_features = {'df.A_DEFAULT': df.A_DEFAULT,
@@ -189,6 +190,15 @@ def parse(token, lemma, emmorph):
 
 
 def main():
+
+    sys.stderr = codecs.getwriter('UTF-8')(sys.stderr.buffer)
+    sys.stdout = codecs.getwriter('UTF-8')(sys.stdout.buffer)
+    sys.stdin = codecs.getreader('UTF-8')(sys.stdin.buffer)
+
+    for line in sys.stdin:
+        if line.strip() == '':
+            print('')
+            continue
 
     for line in sys.stdin:
         token, lemma, elemzes = line.strip().split('\t')[:3]
