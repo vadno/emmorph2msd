@@ -200,7 +200,6 @@ def main():
             print('')
             continue
 
-    for line in sys.stdin:
         token, lemma, elemzes = line.strip().split('\t')[:3]
         msd = parse(token, lemma, elemzes)
         print(msd)
